@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+	.t{
+		    height: 100vh;
+		    width: 100%;
+			background:linear-gradient(59deg,#EA331B ,#60E441);
+			clip-path:polygon(0% 0%, 100% 0%,100% 80%,0% 100%);
+            border:dotted 10px blue;
+			text-align: center;
+			font-size: 22px;
+			font-family: sans-serif;
+
+		}
+		.btu:hover{
+			color: green;
+			border-radius: 14px;
+			font-size: 30px;
+
+		}
+</style>
+</head>
+<body>
+<form class="t">
+	<h1><marquee><b>  Enter The Student Information</b></marquee></h1>
+	<label>UserName :</label>
+	<input type="text" name=" UserName" placeholder="Write your UserName"><br><br>
+	<label>Password :</label>
+	  <input type="Password" name="Password" placeholder="Write your Password"><br><br>
+	<label>Email id :</label>
+	   <input type="text" name="Email" placeholder="Write your email"><br><br>
+	   <label>which type of student :</label>
+	
+	<select>
+			<option value="student">STUDENT</option>
+			<option value=" Ex-Student">EX-STUDENT</option>
+			<option value="Ex-reguler">EX-REGULER</option>
+			<option value="distance education">DISTANCE EDUCATION</option>
+	</select><br><br>
+
+	<p>Write your message in text:</p><br>
+     <textarea rows="5" cols="28" placeholder="Write your message"></textarea><br><br>
+	<p>Select your gender</p>
+	<input type="radio" name="gender">male
+	<input type="radio" name="gender">female
+
+	<p>please read all term and condition carafully</p>
+	<input type="checkbox" name="">yes,I read it all.<br><br>
+
+	<input type="submit" name="submit" value="SUBMIT"title="click here to submit" class="btu" >
+</form>
+</body>
+</html>
